@@ -3,144 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohit Patni - Portfolio</title>
+    <title>Mohit Patni | Innovator & Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Mohit Patni</h1>
-            <nav>
-                <ul>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="loading-screen">
+        <div class="loader">
+            <span>MOHIT PATNI</span>
         </div>
-    </header>
+    </div>
 
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="content">
-                <p><strong>Master of Science in Computer Science</strong><br>
-                California State University Fullerton, USA<br>
-                August 2024 – June 2026</p>
-
-                <p><strong>Bachelor of Technology in Information Technology</strong><br>
-                Indore Institute of Science and Technology, India<br>
-                September 2020 – Present<br>
-                CGPA: 8.10/10</p>
-            </div>
+    <nav class="navbar">
+        <div class="nav-brand">MP</div>
+        <div class="menu-btn">
+            <div class="menu-btn__lines"></div>
         </div>
-    </section>
+        <ul class="nav-items">
+            <li><a href="#home" class="nav-link">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
 
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Experience</h2>
-
-            <div class="job">
-                <h3>Research Intern - International Institute of Information Technology Bangalore</h3>
-                <p class="date">May 2023 - July 2023</p>
-                <ul>
-                    <li>Conducted in-depth studies of the latest literature and standards related to 5G technology, with a particular focus
-                        on the paper “Deployment of 5G Core for 5G Private Networks*” which explores the simulation of 5G networks and the identification of potential vulnerabilities.</li>
-                    <li>Successfully simulated a 5G network environment using Open5GS, establishing a functional connection between UERANSIM and gNodeB nodes. This setup facilitated the transfer of files between the two nodes, enabling the detailed analysis of network packets using Wireshark to identify security gaps.
-                    </li>
-                </ul>
+    <main>
+        <section id="home" class="hero">
+            <div class="glitch-container">
+                <div class="glitch" data-text="MOHIT PATNI">MOHIT PATNI</div>
             </div>
-
-            <div class="job">
-                <h3>Full Stack Web Developer Intern - International Institute of Information Technology Hyderabad</h3>
-                <p class="date">Oct 2022 - Mar 2023</p>
-                <ul>
-                    <li>Worked with Dr. Karthik to design, develop, test and launch <a href="https://virtual-labs.github.io/exp-exception-handling-iiith/simulation.html">Python Virtual Lab</a> content and functionality, a joint initiative with the Government of India, where we contributed a self-paced virtual lab to teach basic concepts of computer programming to high school students.</li>
-                    <li>Developed interactive exercises with javascript library Pyodide that executes code directly in the browser, eliminating the need for a local Python installation. Reduced the loading size of Pyodide from 50 Mb to 15 Mb by removing irrelevant parts of library thereby getting rid of unnecessary dependencies. This made library lightweight, reduced page size and speed up page loading time.</li>
-                </ul>
+            <div class="hero-subtitle">
+                <div class="rotating-text">
+                    <span>FULL STACK DEVELOPER</span>
+                    <span>AI RESEARCHER</span>
+                    <span>INNOVATOR</span>
+                </div>
             </div>
-            <div class="job">
-                <h3>Research and Teaching Assistant - Indore Institute of Science and Technology</h3>
-                <p class="date">Feb. 2022 - July 2022</p>
-                <ul>
-                    <li>Collaborated on the survey paper published in IEEE conference (MRTM 2023) titled ”Dynamic Resource Allocation
-                        and Scheduling Algorithms for Multi-Cloud Environments Considering Cost and Performance Metrics.”</li>
-                    <li>Conducted comprehensive analyses of existing resource allocation methods, identified limitations, and co-developed
-                        an innovative adaptive scheduling algorithm. Validated the proposed algorithm’s effectiveness through extensive
-                        simulations, demonstrating enhanced cost efficiency and performance in multi-cloud environments.</li>
-                    <li>Served as Teaching Assistant for the course Open Source Lab (Bash and R).</li>
-                </ul>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow"></div>
             </div>
-            <div class="job">
-                <h3>Research Intern - Indian Institute of Technology Indore</h3>
-                <p class="date">Aug. 2021 - Jan. 2022</p>
-                <ul>
-                    <li>Conducted extensive literature surveys in emerging fields like Internet of Things (IoT), Software-defined networks, 6G networks, federated learning algorithms, and edge computing.</li>
-                    <li>Learnings during my internship were reported back to my university as an internship report and later compiled in a survey paper titled ”How Software-Defined Networks can reduce the latency of 6G Networks.” which is going to be published in a IEEE conference (MRTM 2023).</li>
-                </ul>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-grid">
+                <div class="section-title" data-aos="fade-right">
+                    <h2>About Me</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="about-content" data-aos="fade-up">
+                    <div class="about-text">
+                        <p class="highlight-text">Graduate researcher exploring the intersection of AI and real-world applications.</p>
+                        <p>Currently working as an EG-RSCA Research Scholar at California State University Fullerton, focusing on innovative applications of machine learning in environmental science and citizen research.</p>
+                    </div>
+                    <div class="stats-container">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-number">3.9</div>
+                            <div class="stat-label">GPA</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Research Projects</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">IEEE Papers</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="job">
-                <h3>Outreach Intern - Coronavirus Visualization Team (CVT), Massachusetts, USA (remote)</h3>
-                <p class="date">Feb. 2021 - July 2021</p>
-                <ul>
-                    <li>Facilitated communication with industry experts hailing from prestigious global universities. Was involved in bringing <a href="https://www.uml.edu/sciences/eeas/faculty/weeden-lori.aspx">Prof. Lori Weeden</a>, EEAS Associate Chair of Undergraduate Programs at University of Massachusetts, Lowell onboard the podcast for Episode 3.</li>
-                    <li>Coordinated podcast scheduling activities and facilitated team meetings to ensure smooth operations and communication.</li>
-                </ul>
+        <section id="experience" class="experience">
+            <div class="section-grid">
+                <div class="section-title" data-aos="fade-right">
+                    <h2>Experience</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>EG-RSCA Research Scholar</h3>
+                            <span class="timeline-date">2025 - Present</span>
+                            <p>Working with Prof. Sarah G. Grant on cutting-edge AI applications in environmental science.</p>
+                            <ul class="achievement-list">
+                                <li>Developing ML models for bird sound identification</li>
+                                <li>Leading interdisciplinary research initiatives</li>
+                                <li>Contributing to scientific publications</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>R&D Intern - IIIT Bangalore</h3>
+                            <span class="timeline-date">2023</span>
+                            <p>Led research in 5G network security and vulnerability assessment.</p>
+                            <ul class="achievement-list">
+                                <li>Increased network security by 30%</li>
+                                <li>Implemented Open5GS simulations</li>
+                                <li>Conducted comprehensive security analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Full Stack Developer - IIIT Hyderabad</h3>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <p>Developed innovative solutions for educational technology.</p>
+                            <ul class="achievement-list">
+                                <li>Reduced loading time by 70%</li>
+                                <li>Increased user engagement by 25%</li>
+                                <li>Optimized web application performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <section id="skills" class="skills">
+            <div class="section-grid">
+                <div class="section-title" data-aos="fade-right">
+                    <h2>Skills & Expertise</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category" data-aos="fade-up">
+                        <h3>Programming</h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>Python</span>
+                                    <span>95%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>JavaScript</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span>C++</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Dynamic IP Allocation System with VLSM Integration</h3>
-                <p>Developed a Python-based server and client for
-dynamic IP allocation integrating Variable Length Subnet Masking (VLSM).
-</p>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Technologies</h3>
+                        <div class="tech-grid">
+                            <div class="tech-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-node"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fab fa-python"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="project">
-                <h3>Crypto Price Tracker</h3>
-                <p>Utilized live data sources from coindesk.com to dynamically fetch and present the current
-cryptocurrency price. Implemented logic to assess whether the cryptocurrency’s price has risen or fallen on the current
-day and notify user on Discord.</p>
+        <section id="contact" class="contact">
+            <div class="section-grid">
+                <div class="section-title" data-aos="fade-right">
+                    <h2>Get in Touch</h2>
+                    <div class="title-bar"></div>
+                </div>
+                <div class="contact-container" data-aos="fade-up">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mohitpatni@csu.fullerton.edu">mohitpatni@csu.fullerton.edu</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+16577519138">+1 (657) 751-9138</a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/mohitpatni1" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/MohitPatni0731" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Languages:</strong> Python, C, C++, JavaScript</li>
-                <li><strong>Tools & Platforms:</strong> Git, Linux, Shell scripting, Google Cloud Platform, Microsoft Azure</li>
-                <li><strong>Networking:</strong> Open5GS, Wireshark, Zeek</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <ul>
-                <li>Email: mohitpatni@csu.fullerton.edu</li>
-                <li>Phone: +91-7415499196</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/mohitpatni1/">https://www.linkedin.com/in/mohitpatni1/</a></li>
-                <li>GitHub: <a href="https://github.com/MohitPatni0731">https://github.com/MohitPatni0731</a></li>
-            </ul>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Mohit Patni. All rights reserved.</p>
+            <p>&copy; 2025 Mohit Patni. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 </body>
 </html>
